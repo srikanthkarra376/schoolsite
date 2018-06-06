@@ -6,3 +6,23 @@ body{
   font-family: Arial, Helvetica, sans-serif;
   font-size: 18px;
 }
+
+
+#navlist {
+  list-style-type: none;
+  
+  display:flex;
+  padding:25px;
+  
+  }
+  #navlist li {
+    padding-left: 50px;
+    width: 75%;
+  }
+  #navlist li a  {
+    color:blue;
+    text-decoration: none;
+  }
+  #navlist li a:hover {
+    color:orangered;
+  }
